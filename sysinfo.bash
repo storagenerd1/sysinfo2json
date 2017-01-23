@@ -57,8 +57,6 @@ echo "        \"bogus\": \"bogus\""
 echo "    },"
 }
 
-## --------------------------------------<script ending>-----------------------------------------##
-
 PkgInfo(){
 echo "    \"packages\": {"
 for pkg in `rpm -qa --queryformat "%{NAME}\n"`
@@ -68,6 +66,8 @@ done
 echo "        \"bogus\": \"bogus\""
 echo "    }"
 }
+
+## --------------------------------------<script ending>-----------------------------------------##
 
 Run(){
 echo "{\"sysinfo\": {"
