@@ -1,6 +1,7 @@
 #/bin/bash
 # System information Collect Script with json output format
-# 09012017 Storagenerd v0.1 First version
+# 09012016 Storagenerd v0.1 First version
+# 23012017 Storagenerd v0.2 Changed name
 
 DATE=`/bin/date +date_%d-%m-%y_time_%H-%M-%S`
 
